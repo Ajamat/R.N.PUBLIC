@@ -1,0 +1,547 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-img{
+    height: 70px;
+}
+.navigation{
+    display: flex;
+    gap: 40px;
+}
+.name{
+    font-size: 45px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.slider{
+    width: 100%;
+    height: 500px;
+}
+.teacher{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card{
+    width: 510px;
+    height: 600px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.mess-head{
+    text-align: center;
+}
+.box-img{
+    width: 400px;
+    height: 300px;
+    /* border: 2px solid black; */
+
+}
+.images{
+    width: 350px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.join-inof{
+    font-size: 22px;
+    font-weight: 600;
+}
+.our-gallery{
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+/* box-container */
+.box-container{
+    width: 100%;
+    height: 400px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-head{
+    width: 90%;
+    height: 300px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.box1{
+    width: 270px;
+    height: 300px;
+    background-color: gainsboro;
+    border-radius: 20px;
+}
+.sir-img{
+    width: 250px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+   
+    
+}
+.last-footer{
+    width: 100%;
+    /* height: 400px; */
+    background-color: black;
+    display: flex;
+    gap: 20px;
+    bottom: 0px;
+}
+.logo-footer{
+    width: 33%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+    /* background-color: blue; */
+}
+.footer-img{
+    width: 100%;
+    height: 150px;
+    /* background-color: chartreuse; */
+}
+.footer-img-2{
+    width: 150px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+.footer-public{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: crimson; */
+}
+.school-name{
+    font-size: 35px;
+    color: white;
+}
+.icon{
+    width: 100%;
+    height: 150px;
+    /* background-color: cornflowerblue; */
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+}
+.about-school{
+    width: 33%;
+    height: 400px;
+    /* background-color: aqua; */
+}
+.about-top{
+    width: 100%;
+    height: 160px;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.adem{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+.last-paira{
+    font-size: 22px;
+    color: white;
+}
+.info{
+    width: 34%;
+    height: 400px;
+    /* background-color: brown; */
+}
+.info-gate{
+    width: 100%;
+    height: 160px;
+    /* background-color:darkgreen ; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.get-heading{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+.last-info-box{
+    font-size: 25px;
+    color: white;
+}
+/* ABOUT US*/
+.about-us{
+    width: 100%;
+    height: 100px;
+    /* background-color: aquamarine; */
+    line-height: 100px;
+    text-align: center;
+}
+.about-headings{
+    font-size: 40px;
+    font-weight: 400;
+}
+.about-images{
+    border: 2px solid black;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-paira{
+    width: 100%;
+    height:500px;
+    background-color: white;
+
+}
+/* Gallery Section */
+.gallery-container{
+    width: 100%;
+    height: 550px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+.gallery-content{
+    width: 80%;
+    height: 520px;
+    background-color: gainsboro;
+    display: flex;
+}
+.gallery-nav{
+    width: 250px;
+    height: 520px;
+    background-color: rgba(122, 146, 168, 0.438);
+}
+.gallery-ull{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color:rgba(122, 146, 168, 0.438) ;
+    /* border: 1px solid #555; */
+  }
+  
+  .gallery-lee a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .gallery-lee {
+    /* text-align: center; */
+    border-bottom: 1px solid #555;
+  }
+  
+  .gallery-lee:last-child {
+    border-bottom: none;
+  }
+  
+  .gallery-lee a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .gallery-lee a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+.gallery-outside{
+    width: 842px;
+    height: 550px;
+    /* background-color: brown; */
+}
+.gallery-head{
+    font-size: 40px;
+    font-weight: 200;
+    padding-left: 25px;
+}
+.gal-devid-img{
+    margin-left: 30px;
+}
+.galery-img{
+    width: 350px;
+    padding: 5px;
+    border: 1px solid red;
+    /* margin-left: 50px; */
+}
+.parotic{
+    padding-left: 30px;
+    font-size: 18px;
+}
+.academy-paira{
+    font-size: 13px;
+    padding-left: 30px;
+}
+.gallery-third-paira{
+    font-size: 12px;
+    padding-left: 30px;
+    font-weight: 100;
+
+}
+.fourth-paira{
+    padding-left: 30px;
+    font-size: 13px;
+    font-weight: 100;
+}
+.gall-four-paira{
+    padding-left: 30px;
+    color: green;
+    font-weight: 400;
+}
+.gallery-logo{
+    width: 150px;
+    /* margin-left: 80px; */
+}
+.gallery-icone{
+    width: 100%;
+    height: 200px;
+    font-size: 50px;
+    /* margin-left: 40px; */
+    /* margin-top: 30px; */
+}
+/* ADMISIONS CONTAINER */
+#admisions-container{
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+    padding-left: 60px;
+}
+.admi-heading{
+    font-size: 30px;
+    font-weight: 100;
+}
+.admi-session{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 20px;
+    color: blue;
+}
+.intro-school{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+.conditate-school{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+    color: darkgreen;
+}
+.folow-con{
+    margin-top: 20px;
+}
+.amision-last-paira{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.space{
+    margin-top: 10px;
+}
+/* Contact Us Section */
+.contact-content{
+    width: 100%;
+    height: 110px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.con-info-head{
+    font-size: 15px;
+}
+.touch-wood{
+    font-size: 40px;
+    font-weight: 100;
+}
+.contact-box-container{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(154, 212, 193);
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.contact-box{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.cell-heading{
+    font-size: 30px;
+}
+
+
+.address-contact{
+    font-size: 13px;
+}
+.atunm{
+    font-size: 100px;
+}
+/* blank section */
+.blank{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1100px){
+    nav{
+        height: 70px;
+    }
+  .container{
+    width: 96%;
+    height: 70px;
+  }
+  .name{
+    font-size: 35px;
+  }
+  a{
+    font-size: 20px;
+  }
+  .card{
+    height: auto;
+    width: 400px;
+}
+.box-container{
+    height: auto;
+}
+.box-head{
+    height: auto;
+}
+.last-info-box{
+    font-size: 15px;    
+}
+
+}
+@media screen and (max-width:848px){
+  .container{
+   display: none;
+  }
+  .slider{
+    height: 200px;
+}
+.teacher{
+   flex-direction: column;
+   gap: 25px;
+   padding: 0px 15px;
+} 
+.card{
+    width: 100%;
+}
+.box1{
+    width: 400px;
+}
+.sir-img {
+    width: 327px;
+    border-radius: 30px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.last-footer{
+    height: auto;
+    flex-direction: column;
+}
+.contact-box-container{
+    height: auto;
+    padding-bottom: 15px;
+}
+}
+@media screen and (max-width:400px){
+    .last-footer{
+        width: 100%;
+    }
+    .images{
+        width: 306px;
+    }   
+    .footer-img-2 {
+        margin-left: 100px;
+
+    }
+    .school-name{
+        margin-left: 50px;
+    }
+    .adem{
+        margin-left: 20px;
+    }
+    .last-paira{
+        margin-left: 20px;
+        font-size: 13px;
+    }
+    .icon{
+        height: auto;
+    }
+    .logo-footer{
+        height: auto;
+    }
+    .footer-img{
+        height: auto;
+    }
+    .last-info-box {
+        font-size: 20px;
+        color: white;
+        padding-left: 20px;
+    }
+    .get-heading{
+        padding-left: 20px;
+    }
+}
