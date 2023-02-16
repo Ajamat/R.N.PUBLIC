@@ -85,7 +85,7 @@ a{
 /* box-container */
 .box-container{
     width: 100%;
-    height: 400px;
+    /* height: 400px; */
     /* background-color: blueviolet; */
     display: flex;
     justify-content: center;
@@ -93,12 +93,13 @@ a{
 }
 .box-head{
     width: 90%;
-    height: 300px;
+    /* height: 300px; */
     /* background-color: blue; */
     display: flex;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
+    margin-bottom: 15px;
 }
 .box1{
     width: 270px;
@@ -236,20 +237,20 @@ a{
 /* Gallery Section */
 .gallery-container{
     width: 100%;
-    height: 550px;
+    /* height: 550px; */
     /* background-color: blue; */
     display: flex;
     justify-content: center;
 }
 .gallery-content{
     width: 80%;
-    height: 520px;
+    /* height: 520px; */
     background-color: gainsboro;
     display: flex;
 }
 .gallery-nav{
     width: 250px;
-    height: 520px;
+    /* height: 520px; */
     background-color: rgba(122, 146, 168, 0.438);
 }
 .gallery-ull{
@@ -288,7 +289,7 @@ a{
   }
 .gallery-outside{
     width: 842px;
-    height: 550px;
+    /* height: 550px; */
     /* background-color: brown; */
 }
 .gallery-head{
@@ -402,6 +403,7 @@ a{
     background-color: rgb(154, 212, 193);
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 40px;
     flex-wrap: wrap;
 }
@@ -415,6 +417,7 @@ a{
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    border-radius: 20px;
     
 }
 
@@ -430,12 +433,12 @@ a{
     font-size: 100px;
 }
 /* blank section */
-.blank{
-    width: 100%;
-    height: 500px;
-    background-color: white;
+#click{
+    display: none;
 }
-
+.fa-bars{
+    display: none;
+}
 
 
 
@@ -469,14 +472,53 @@ a{
     height: auto;
 }
 .last-info-box{
-    font-size: 15px;    
+    font-size: 18px;    
 }
-
+.last-paira{
+    font-size: 15px;
+}
+.footer-img-2{
+    width: 110px;
+    margin-top: 12px;
+}
+.school-name{
+    font-size: 20px;
+}
+.footer-public{
+    height: auto;
+}
+.logo-footer{
+    width: 100%;
+    height: auto;
+}
+.icon{
+    height: auto;
+}
+.footer-img{
+    height: auto;
+}
+.info {
+    width: 100%;
+    /* height: 400px; */
+    /* background-color: brown; */
+    text-align: center;
+}
+.gallery-container{
+    height: auto;
+}
+.gallery-content{
+    width: 100%;
+    height: auto;
+}
+.gallery-nav{
+    height: auto;
+}
+.gallery-outside{
+    height: auto;
+}
 }
 @media screen and (max-width:848px){
-  .container{
-   display: none;
-  }
+ 
   .slider{
     height: 200px;
 }
@@ -500,11 +542,60 @@ a{
 .last-footer{
     height: auto;
     flex-direction: column;
+    align-items: center;
 }
 .contact-box-container{
     height: auto;
     padding-bottom: 15px;
 }
+.name{
+    font-size: 18px;
+}
+nav .navigation {
+    position: fixed;
+    top: 70px;
+    left: -100%;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+#click:checked ~ .navigation{
+    left: 0%;
+}
+
+.nav-ul{
+    padding: 10px 0px;
+}
+
+nav .navigation .nva-ul {
+    margin: 40px 0;
+}
+
+nav .navigation .nva-ul a {
+    font-size: 20px;
+    display: block;
+}
+
+nav .navigation .nva-ul a:hover,
+nav .navigation .nva-ul a.active {
+    color: black;
+    background-color: none;
+}
+nav .menu-tbn i{
+    /* color: white; */
+    display: block;
+}
+
+
+}
+@media screen and (max-width: 630px) and (min-width: 400px) {
+    .galery-img{
+        width: 150px;
+    }
+
 }
 @media screen and (max-width:400px){
     .last-footer{
@@ -544,4 +635,48 @@ a{
     .get-heading{
         padding-left: 20px;
     }
+    .sir-img{
+        margin-left: 5px;
+    }
+    .box1{
+        margin-bottom: 10px;
+    }
+    /* gallery sections */
+    .parotic{
+        padding-left: 0px;
+        font-size: 11px;
+    }
+    .gallery-head{
+        font-size: 17px;
+    }
+    .gal-devid-img{
+        margin-left: 5px;
+    }
+    .galery-img{
+        width: 120px;
+    }
+    .academy-paira{
+        font-size: 9px;
+        padding-left: 0px;
+    }
+    .gallery-third-paira{
+        font-size: 10px;
+        padding-left: 0px;
+    }
+    .fourth-paira{
+        font-size: 11px;
+        padding-left: 0px;
+    }
+    .gall-four-paira{
+        padding-left: 0px;
+    }
+    .gallery-logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gallery-icone{
+        text-align: center;
+    }
+
 }
